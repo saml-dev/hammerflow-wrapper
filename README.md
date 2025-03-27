@@ -8,5 +8,5 @@ git clone --recursive https://github.com/saml-dev/hammerflow-wrapper.git ~/.hamm
 
 To pull down updates, use:
 ```
-git pull --recurse
+git pull && git submodule update --init --recursive
 ```
