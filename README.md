@@ -10,3 +10,10 @@ To pull down updates, use:
 ```
 git pull && git submodule update --init --recursive
 ```
+
+# Develop
+
+There aren't many changes needed in this repo since it is meant to be a quickstart that users will customize. To update Hammerflow, which is in this repo as a submodule, run:
+```
+git submodule update --remote
+```
